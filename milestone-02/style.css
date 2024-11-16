@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 25;
+    background-color: #628f2e;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+h1, h2 {
+    color: #1d0e0e;
+    text-align: center;
+}
+
+form, .resume-display {
+    background-color: #39d6bc;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5em;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #160909;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #10c716;
+    color: rgb(245, 240, 240);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.resume-display {
+    display: none; /* Hidden until the resume is generated */
+}
+
+.resume-display h1, .resume-display h2 {
+    text-align: left;
+    color: #444;
+}
+
+.resume-display p, .resume-display ul {
+    margin: 0.5em 0;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    background-color: #4CAF50;
+    color: white;
+    margin: 0.3em;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+}
